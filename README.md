@@ -35,6 +35,7 @@ Open .github/workflows/terraform-deploy.yml
 What you say: "To automate all of this, we implemented a GitOps workflow. This YAML file is a GitHub Actions CI/CD pipeline. When code is pushed to our repository, this pipeline automatically runs terraform plan, converts it to JSON, and passes it to OPA for security validation. If it passes the security check, it automatically applies it.
 
 (If the teacher asks you to run it locally, this is where you use Strategy 1): 'Professor, you might ask why we aren't running this from the command line right now. Our framework is designed using Enterprise GitOps principles. In a real-world multi-cloud environment, running Terraform from a local laptop is a major security risk. The architecture is explicitly designed so that all deployments happen securely through this automated CI/CD pipeline, not via local execution.'"
+<img width="727" height="551" alt="image" src="https://github.com/user-attachments/assets/b20413df-2a62-4bc2-9a52-7fd45b09dd0d" />
 
 Step 4: Automated Remediation (Self-Healing)
 Open remediation/lambda_remediate.py

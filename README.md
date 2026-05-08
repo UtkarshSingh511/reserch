@@ -13,6 +13,8 @@ Open your code editor and show the teacher the files as you explain them. You ca
 
 Architecture Diagram
 Review
+<img width="660" height="517" alt="image" src="https://github.com/user-attachments/assets/4c083a80-c76e-4f5c-8c56-0a8c8cc8aa1b" />
+
 Architecture Diagram
 
 Step 1: Infrastructure as Code (IaC)
